@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "rootDir": "src",
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "lib": ["esnext","dom"],
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "api/*": [
+        "src/api/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "config",
+    "scripts",
+    "webpack"
+  ]
+}

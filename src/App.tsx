@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoList from "./components/TodoList";
+import AddTodo from "./components/AddTodo";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -20,6 +22,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <TodoList/>
+        <AddTodo />
       </div>
     );
   }
